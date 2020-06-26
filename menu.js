@@ -1,6 +1,8 @@
 function menu(){
-    document.getElementById("menu").style.visibility ="visible"
-}
-function menu_ocult(){
-    document.getElementById("menu").style.visibility = "hidden"
+    if (document.getElementById("menu").style.visibility == "hidden"){
+        document.getElementById("menu").style.visibility = "visible"
+    }
+    else{
+        document.getElementById("menu").style.visibility = "hidden"
+    }
 }
